@@ -15,6 +15,7 @@ print("If you run out of lives, you lose!")
 print("For every wrong guess, you lose a life.")
 print("But don't worry, I will give you hints to help you guess the number.")
 print("\nI am thinking of a number between 1 and 50.")
+print("You have 5 lives left ❤️❤️❤️❤️❤️")
 
 while attempts < lives:
 
