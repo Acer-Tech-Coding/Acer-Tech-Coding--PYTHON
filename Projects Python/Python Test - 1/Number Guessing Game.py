@@ -43,5 +43,15 @@ while attempts < lives:
 
 if guess != secret:
     print("You lost! The secret number was", secret)
+    end_game = input("Do you want to play again? (yes/no): ")
+    if end_game.lower() == "yes":
+        secret = random.randint(1, 50)
+        attempts = 0
+        print("\nI am thinking of a new number between 1 and 50.")
+        print("You have 5 lives left ❤️❤️❤️❤️❤️")
+
+        else:
+    
+            print("Thanks for playing! Goodbye!")
 
 
